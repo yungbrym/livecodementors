@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:19px;
+   
+    line-height:1.6;
+    
+  }
+
+ .class-list ul{
+  max-width: 350px;
+margin: 10px;
+}
+.class-list2{
+  max-width: 600px;
+}
+
+  #showcase{
+    background-image:url('/Images/WORKERS.jpg');
+    background-size:cover;
+    background-position:center;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+    max-width: 90%;
+  }
+  #showcase h2{
+    font-size:30px;
+    line-height:1.2;
+    color:#f4c031;
+    max-width: 90%;
+    
+}
+  #showcase p{
+    font-size:29px;
+    color:#f4c031;
+  }
+  
+  #showcase .button{
+    font-size:25px;
+    text-decoration:none;
+    background-color: #b7680e;
+    color:#fcfaf8;
+    border:#9c9a99 5px solid;
+    padding:10px 35px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+ 
+  #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:left;
+  }
+   
+  #section-a p{
+ max-height: 350px;
+  }
+  #section-a .button{
+    padding:10px 35px;
+    font-size:25px;
+    text-decoration:none;
+    background:#b7680e;
+    color:#d4c7c7;
+    border:#9c9a99 5px solid;
+    border-radius:10px;
+    text-align:center;
+  }
+  #section-a .button:hover{
+    background:#a6a826;
+    color:#fff;
+
+}
+  #section-b{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+  }
+  
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:#926239;
+    color:#fff;
+  }
+  
+  #section-c .box-2{
+    background:#f9f9f9;
+  }
+  
+  @media (max-width: 700px)
+{
+  .class-list2{
+    max-width: 400px;
+  }
+  
+  
+  #showcase h1{
+    font-size:25px;
+    line-height:1.2;
+    margin: 0 10px;
+
+  }
+  #showcase h2{
+    font-size:18px;
+    line-height:1.2;
+    color:#dab939;
+    margin:5px 10px;
+    max-width: 90%;
+    
+  }
+} 
